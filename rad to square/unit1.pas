@@ -52,6 +52,11 @@ implementation
 
 { TForm1 }
 
+function SqCalc (R: Real): Real;
+begin
+    SqCalc := Pi*R*R;
+end;
+
 procedure TMyThread.Execute;
 var
    S : String;
@@ -64,15 +69,10 @@ var
        while R <= R2 do
         begin
          Form1.Memo1.Lines.Add (FloatToStr(SqCalc(R*Rad_koef)));
-         R := R1+1;
+         R := R+1;
         end;
     end;
  end;
-
-function SqCalc (R: Real): Real;
-begin
-    SqCalc := Pi*R*R;
-end;
 
 procedure TForm1.Edit1Change(Sender: TObject);
 begin
