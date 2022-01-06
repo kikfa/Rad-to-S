@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 235
+  Height = 240
+  Top = 181
+  Width = 432
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 432
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Edit1: TEdit
+    Left = 37
+    Height = 22
+    Top = 24
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 0
+    Text = '1 радиус '
+  end
+  object Edit2: TEdit
+    Left = 37
+    Height = 22
+    Top = 64
+    Width = 80
+    OnChange = Edit2Change
+    TabOrder = 1
+    Text = '2 радиус'
+  end
+  object RadioButton1: TRadioButton
+    Left = 24
+    Height = 18
+    Top = 100
+    Width = 45
+    Caption = 'мм'
+    OnChange = RadioButton1Change
+    TabOrder = 2
+  end
+  object RadioButton2: TRadioButton
+    Left = 24
+    Height = 18
+    Top = 128
+    Width = 42
+    Caption = 'см'
+    OnChange = RadioButton2Change
+    TabOrder = 3
+  end
+  object RadioButton3: TRadioButton
+    Left = 24
+    Height = 18
+    Top = 160
+    Width = 36
+    Caption = 'м'
+    OnChange = RadioButton3Change
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 240
+    Height = 25
+    Top = 21
+    Width = 99
+    Caption = 'посчитать'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+  object Memo1: TMemo
+    Left = 208
+    Height = 90
+    Top = 96
+    Width = 150
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 6
+  end
+end

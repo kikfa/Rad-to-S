@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1590953228"/>
+  <Params Value=" -MDelphiUnicode -Scghi -O1 -gw2 -godwarfsets -gl -k-framework -kCocoa -l -vewnhibq &quot;-Fi/Users/ira/Downloads/rad to square/lib/x86_64-darwin&quot; -Fu/Users/ira/.lazarus/lib/units/x86_64-darwin/cocoa -Fu/Applications/Lazarus/lcl/units/x86_64-darwin -Fu/Applications/Lazarus/components/lazutils/lib/x86_64-darwin -Fu/Applications/Lazarus/packager/units/x86_64-darwin &quot;-Fu/Users/ira/Downloads/rad to square/&quot; &quot;-FU/Users/ira/Downloads/rad to square/lib/x86_64-darwin/&quot; &quot;-FE/Users/ira/Downloads/rad to square/&quot; &quot;-o/Users/ira/Downloads/rad to square/project2&quot; -dLCL -dLCLcocoa project2.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>
